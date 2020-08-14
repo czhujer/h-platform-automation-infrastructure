@@ -1,7 +1,4 @@
-Vagrant.configure('2') do |config|
-  config.ssh.max_tries = 40
-  config.ssh.timeout   = 120
-end
+# based on https://github.com/erran-r7/multiple_vagrantfiles
 
 # all
 vagrantfiles = %w[../h-platform-automation-cm/Vagrantfile ../h-platform-automation-monitoring/Vagrantfile ../h-platform-automation-website/Vagrantfile]
